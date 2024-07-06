@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     font-family:'poppins' ,'Inter', sans-serif;
+    
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 header {
     background: no-repeat center center/cover;
     background-image:url("./images/home\ bg.jpg");
@@ -84,4 +88,64 @@ header {
     cursor: pointer;
     font-size: 18px;
   }
+  .Our-service{
+    margin-top: 85px;
+  }
+
+  .place{
+   
+    padding: 20px;
+    width: fit-content;
+   
+    
+}
+.place img{
+    width: 409px;
+    border-radius: 9px;
+}
+.Our-service-content{
+    display: flex;
+    justify-content:space-between;
+    justify-content: space-evenly;
+}
+
+.Our-service h5{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    letter-spacing: -0.07em;
+    color:#040404; 
+    font-weight: 100;
+        opacity: 0.8;
+  
+    
+      
+}
+
+hr {
+    position: relative;
+    top: 23px;
+    border: none;
+    height: 4px;
+    width: 110px;
+    background-color: #FFD600;
+    margin-bottom: 55px;
+    border-radius: 20px;
+    margin-left: 48%;
+  }
+.place-content{
+    padding: 20px;
+    width: fit-content;
+}
+.place-content .h1{
+    font-size: 29px;
+    font-weight: 400;
+    margin: 15px 0;
+    
+}
+.place-content .p{
+    color: #040404da;
+}
+
+
 
