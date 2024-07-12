@@ -189,7 +189,54 @@ hr {
   }
 
 
+  .about-us {
+  max-height: 94vh;  
+margin-left:3%;
+margin-right: 9%;
+display:flex;    
+}
+h5{
+    margin-top: 20px;
+    font-size:16px;
+    font-weight: 100;
+}
 
+.content {
+padding:80px;
+ width:900px;
+}
 
+.content .p2 {
+    font-size: 19px;
+    color:#4D4D4D;
+    word-spacing: 8.3px;
+    float: left;
+    margin-bottom: 30px;
+    width:90vh;
+    line-height :1.6em;
 
+}
 
+.content .p1 {
+    font-size: 29px;
+    color: #556b2f;
+    margin-bottom:56px;
+    word-spacing: 5px;
+}
+
+.content button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid #556b2f;
+    color: #556b2f;
+    cursor: pointer;
+    margin-top:56px;
+    margin-left: 200px;
+
+}
+
+.image img {
+   width:429px;
+   border-radius: 6px;
+}
